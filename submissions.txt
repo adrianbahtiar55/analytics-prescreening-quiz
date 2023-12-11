@@ -1,3 +1,2 @@
-NAME | EMAIL | CORRECT ANSWER | TIME TAKEN (S) | TAB CHANGE COUNTS
-===================================================================
-Bahtiar | bahtiar@mediatropy.com | 10 | 15 | 0
+Moved here:
+https://docs.google.com/spreadsheets/d/1cTFeGSD1FnSPIeNbIeZOfUaRk-5JGOnIcC8TWS36Fr0/edit?usp=sharing
