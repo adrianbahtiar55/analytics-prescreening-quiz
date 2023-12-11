@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Analytics Test</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</head>
+<body>
+    
+    <div class="quiz-container" id="intro-container">
+        <h1>Welcome to the Mediatropy - Data Analytics Test</h1>
+        <p>Please enter your details to begin.</p>
+        <input type="text" id="name" placeholder="Your Name">
+        <input type="email" id="email" placeholder="Your Email">
+        <button id="start-test">Start Test</button>
+        <p>This test consists of two sections:</p>
+<ul>
+    <li><strong>Section 1:</strong> Multiple-Choice Questions (10 in total). <br>Please avoid switching tabs during this section as the questions are straightforward. A timer will just track how long it takes you to complete this section.</li><br>
+    <li><strong>Section 2:</strong> Analysis Task. <br>You will receive specific instructions for this section after completing the quiz. You are not required to complete the analysis task during the quiz itself. You will have a 5-day deadline to submit your analysis once you receive the instructions.</li>
+</ul>
+
+    </div>
+
+    <div class="quiz-container" id="quiz-container" style="display: none;">
+        <div id="timer">Time: 0 seconds</div> <!-- Timer display at the top -->
+        <div id="quiz">
+            <!-- Quiz questions will be dynamically inserted here -->
+        </div>
+        <button id="submit">Submit Answers</button> <!-- Submit button below the questions -->
+    </div>
+    
+
+    <!-- Analysis Task container will be dynamically added by JavaScript -->
+    
+</body>
+</html>

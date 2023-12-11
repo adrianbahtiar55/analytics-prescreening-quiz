@@ -1,0 +1,56 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* changed from center to flex-start */
+    min-height: 100vh; /* changed from height to min-height */
+    margin: 0;
+}
+
+.quiz-container {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px; /* added margin-top for spacing */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    overflow-y: auto; /* in case content overflows */
+}
+
+/* Rest of your CSS remains the same */
+
+
+#timer {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.question {
+    margin-bottom: 20px;
+}
+
+.option {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+
+
+/* Add additional CSS styling as needed */
